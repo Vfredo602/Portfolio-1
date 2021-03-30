@@ -4,10 +4,31 @@ body{
     margin: 0;
     
 }
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
 
-h1{
+#title{
     color: black;
     padding: top 30px;
     min-height: 70px;
-
+    font-family: 'Montserrat', sans-serif;
+    justify-content: flex-start;
 }
+
+#nav-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#nav-links a {
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: "Raleway", sans-serif;
+}
+
