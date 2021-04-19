@@ -14,13 +14,20 @@ h1 {
   font-family:'Frijole', cursive;
 }
 
+.card-header {
+  font-family:'Frijole', cursive;
+  font-size: 30px;
+  color:rgb(139, 139, 139);
+
+}
+
 #bg-img{
   background: url('../images/Masai2.jpg'); 
   background-size: 100%;
   background-repeat: no-repeat;
-  min-height: 500px;
+  min-height: 600px;
 }
 
 a.nav-link:hover{
-  background-color: darkgoldenrod;
+  background-color: rgb(170, 137, 53);
 }
